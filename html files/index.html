@@ -6,222 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4dbaa63c16.js" crossorigin="anonymous"></script>
     <title>Document</title>
-    <style>
-        header{
-            position: -webkit-sticky;
-            position: sticky;
-            top: 0px;
-        }
-        #title{
-          
-            background-color: black;
-            display: flex;
-             justify-content: space-around;
-            align-items: center;
-          position: sticky;
-          top: 0px;
-            height: 50px;
-        }
-        #menu{
-           position: relative;
-           left: 120px;
-        }
-        #menu p{
-            width: 25px;
-           height: 3px;
-           background-color: white;
-           margin: 4px 0px;
-        }
-        .socialWebsites{
-             /* border: 1px solid yellow;  */
-             display: flex; 
-            width:20%;
-            
-        }
-        .socialWebsites img{
-            border-radius: 50%;
-            width: 7%;
-            padding: 0px 5px;
-        }
-        #firstpost{
-            position: relative;
-            left: 180px;
-        }
-       
-        #lens{
-            width: 20px;
-            padding-left: 30px;
-             background-color: black;
-        }
-        #title div{
-            cursor: pointer;
-        }
-        #pages ul{
-            display: flex;
-            
-        }
-        #pages li{
-            padding: 2px 5px;
-            border-right: 1px solid black;
-        }
-        #belowtitle{
-            display: flex;
-            justify-content: center;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-            background-color: white;
-        }
-        #belowtitle p{
-            text-align: center;
-            padding: 3px 7px;
-            font-size: 15px;
-           
-           
-        }
-        #volvo, #crypto{
-            background-color: #FF3D1E;
-            font-style: arial;
-            color: white;
-            font-size: 12px;
-            margin: 0px 10px;
-            padding:3px 4px;
-            font-weight: bold;
-        }
-        #pages_right{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        #crypto{
-            background-color: rgb(5, 76, 104);
-           
-        }
-        #belowtitle div :hover{
-           cursor: pointer;
-           
-        }
-        #pages li:hover{
-            cursor: pointer;
-            border-bottom: 2px solid orange;
-        }
-        hr{
-            background-color: black;  
-            height: 5px;   
-           }
-           #footdiv1{
-            display: flex;
-            align-items: center;
-            justify-content: space-between; 
-            width: 65%;
-            margin: auto;
-            border-bottom: 1px solid blue;
-           }
-          .socialWebsites2{
-            display: flex;
-            width: 30%;
-            position: relative;
-            left: 100px;
-            margin: 20px 0px;
-            }
-         
-          .fa-brands, .fa-solid{
-            color: white;
-              padding: 8px;
-              margin: 05px;
-               font-size: 150%;
-               border-radius: 50%;
-               background-color: #FF3D1E;
-          }
-          #face{
-            background-color: blue;
-          }
-          #tweet{
-            color:white;
-            background-color: skyblue;
-          }
-        #footdiv1 div :hover{
-            cursor: pointer;
-        }
-        #footdiv2{
-            width: 65%;
-            margin: auto;
-            display: flex;
-            justify-content: space-around;
-            border-top: 1px solid black;
-        }
-        #topadvert{
-            text-align: center;
-            margin-top: 20px;
-        }
-        a{
-            text-decoration: none;
-            font-size: 15px;
-            font-style: Arial;
-        }
-        ul{
-            list-style-type:none;
-            text-align: left;
-        }
-       
-        
-        /* li{
-            padding-bottom: 5px;
-        } */
-        #footdiv2 div{
-            border-right: 1px solid black;
-            padding-right: 100px;
-        }
-        #networksites{
-            width: 65%;
-            margin: auto;
-            padding: -1px 0px;
-            border-top: 1px solid black;
-            border-bottom: 1px solid black;
-            
-        }
-        #networksites ul{
-            display: flex;
-        }
-        #networksites li{
-            padding: 2px 5px;
-        }
-        #footdiv2 p{
-            font-size: 18px;
-            font-style: Arial;
-            font-weight: bold;
-            position: relative;
-            left: 30px;
-        }
+    <link rel="stylesheet" href="../css files/index.css" />
 
-        #networksites p{
-            font-size: 18px;
-            font-style: Arial;
-            font-weight: bold;
-            position: relative;
-            left: 30px;
-        }
-        #networksites{
-            display: flex;
-        }
-        #copyright{
-            text-align: center;
-        }
-        #footerend{
-            display: flex;
-            justify-content: center;
-            margin-top: -20px;
-         
-        }
-        #footerend ul{
-            display: flex;
-            position: relative;
-            left: -16px;
-        }
-        #footerend li{
-            padding: 0px 3px;
-            font-weight: bold;
-           
-        }
-    </style>
     <style>
         #news{
             border: 1px solid green;
@@ -240,10 +26,13 @@
         }
         
         #Headlines{
-        
-            
-            padding: 5px 10px;
+          /* padding: 5px 05px; */
             background-color: white;
+            position: relative; right:20px;bottom:140px; width:90%; margin:auto;border: 3px solid red;
+            padding-bottom: 0px;
+        }
+        strong{
+            border-bottom: 2px solid yellow;
         }
     </style>
 </head>
@@ -303,10 +92,11 @@
                 <div id="newsPart">
                     <div id="news1">
                         <h1 style="font-style: arial;">THE BIG STORY</h1>
-                        <img src="https://images.firstpost.com/wp-content/uploads/fpranking/1658305137867.jpg" alt="">
-                        <div id="Headlines">
-                            <h1>The many challenges that await Sri Lanka's new president Ranil Wickeremesinghe</h1>
-                        </div>
+                        <img src="https://images.firstpost.com/wp-content/uploads/fpranking/1658320635624.jpg" alt="">
+                        <!-- <div id="Headlines">
+                            <strong>OPINION</strong>
+                            <h2>The many challenges that await Sri Lanka's new president Ranil Wickeremesinghe</h2>
+                        </div> -->
                     </div>
                 </div>
                 <div id="advert">
