@@ -1,0 +1,215 @@
+/* index css */
+header{
+
+    position: sticky;
+    top: 0px;
+}
+#title{
+  
+    background-color: black;
+    display: flex;
+     justify-content: space-around;
+    align-items: center;
+  position: sticky;
+  top: 0px;
+    height: 50px;
+}
+#menu{
+   position: relative;
+   left: 120px;
+}
+#menu p{
+    width: 25px;
+   height: 3px;
+   background-color: white;
+   margin: 4px 0px;
+}
+.socialWebsites{
+     /* border: 1px solid yellow;  */
+     display: flex; 
+    width:20%;
+    
+}
+.socialWebsites img{
+    border-radius: 50%;
+    width: 7%;
+    padding: 0px 5px;
+}
+#firstpost{
+    position: relative;
+    left: 180px;
+}
+
+#lens{
+    width: 20px;
+    padding-left: 30px;
+     background-color: black;
+}
+#title div{
+    cursor: pointer;
+}
+#pages ul{
+    display: flex;
+    
+}
+#pages li{
+    padding: 2px 5px;
+    border-right: 1px solid black;
+}
+#belowtitle{
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+}
+#belowtitle p{
+    text-align: center;
+    padding: 3px 7px;
+    font-size: 15px;
+   
+   
+}
+#volvo, #crypto{
+    background-color: #FF3D1E;
+    font-style: arial;
+    color: white;
+    font-size: 12px;
+    margin: 0px 10px;
+    padding:3px 4px;
+    font-weight: bold;
+}
+#pages_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#crypto{
+    background-color: rgb(5, 76, 104);
+   
+}
+#belowtitle div :hover{
+   cursor: pointer;
+   
+}
+#pages li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid orange;
+}
+hr{
+    background-color: black;  
+    height: 5px;   
+   }
+   #footdiv1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 65%;
+    margin: auto;
+    border-bottom: 1px solid blue;
+   }
+  .socialWebsites2{
+    display: flex;
+    width: 30%;
+    position: relative;
+    left: 100px;
+    margin: 20px 0px;
+    }
+ 
+  .fa-brands, .fa-solid{
+    color: white;
+      padding: 8px;
+      margin: 05px;
+       font-size: 150%;
+       border-radius: 50%;
+       background-color: #FF3D1E;
+  }
+  #face{
+    background-color: blue;
+  }
+  #tweet{
+    color:white;
+    background-color: skyblue;
+  }
+#footdiv1 div :hover{
+    cursor: pointer;
+}
+#footdiv2{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid black;
+}
+#topadvert{
+    text-align: center;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    font-style: Arial;
+}
+ul{
+    list-style-type:none;
+    text-align: left;
+}
+
+
+/* li{
+    padding-bottom: 5px;
+} */
+#footdiv2 div{
+    border-right: 1px solid black;
+    padding-right: 100px;
+}
+#networksites{
+    width: 65%;
+    margin: auto;
+    padding: -1px 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    
+}
+#networksites ul{
+    display: flex;
+}
+#networksites li{
+    padding: 2px 5px;
+}
+#footdiv2 p{
+    font-size: 18px;
+    font-style: Arial;
+    font-weight: bold;
+    position: relative;
+    left: 30px;
+}
+
+#networksites p{
+    font-size: 18px;
+    font-style: Arial;
+    font-weight: bold;
+    position: relative;
+    left: 30px;
+}
+#networksites{
+    display: flex;
+}
+#copyright{
+    text-align: center;
+}
+#footerend{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+ 
+}
+#footerend ul{
+    display: flex;
+    position: relative;
+    left: -16px;
+}
+#footerend li{
+    padding: 0px 3px;
+    font-weight: bold;
+   
+}
