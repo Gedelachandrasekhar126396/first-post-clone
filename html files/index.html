@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4dbaa63c16.js" crossorigin="anonymous"></script>
     <title>Document</title>
     <style>
+        header{
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0px;
+        }
         #title{
           
             background-color: black;
@@ -13,7 +19,7 @@
              justify-content: space-around;
             align-items: center;
           position: sticky;
-          top: -8px;
+          top: 0px;
             height: 50px;
         }
         #menu{
@@ -45,33 +51,40 @@
         #lens{
             width: 20px;
             padding-left: 30px;
-            border: 1px solid green;
+             background-color: black;
         }
         #title div{
             cursor: pointer;
         }
-        #pages{
+        #pages ul{
             display: flex;
+            
+        }
+        #pages li{
+            padding: 2px 5px;
+            border-right: 1px solid black;
         }
         #belowtitle{
             display: flex;
             justify-content: center;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            background-color: white;
         }
         #belowtitle p{
             text-align: center;
             padding: 3px 7px;
             font-size: 15px;
-            border-right: 1px solid black;
+           
            
         }
         #volvo, #crypto{
-            background-color: rgb(245, 52, 13);
-            font-weight: bold;
+            background-color: #FF3D1E;
+            font-style: arial;
             color: white;
-            font-size: 15px;
+            font-size: 12px;
             margin: 0px 10px;
-            padding: 3px;
+            padding:3px 4px;
+            font-weight: bold;
         }
         #pages_right{
             display: flex;
@@ -86,7 +99,7 @@
            cursor: pointer;
            
         }
-        #pages p:hover{
+        #pages li:hover{
             cursor: pointer;
             border-bottom: 2px solid orange;
         }
@@ -108,28 +121,136 @@
             position: relative;
             left: 100px;
             margin: 20px 0px;
-            
-           
+            }
+         
+          .fa-brands, .fa-solid{
+            color: white;
+              padding: 8px;
+              margin: 05px;
+               font-size: 150%;
+               border-radius: 50%;
+               background-color: #FF3D1E;
           }
-          .socialWebsites2 img{
-            border-radius: 50%;
-            width: 10%;
-            padding: 0px 5px;
-        }
+          #face{
+            background-color: blue;
+          }
+          #tweet{
+            color:white;
+            background-color: skyblue;
+          }
         #footdiv1 div :hover{
             cursor: pointer;
         }
         #footdiv2{
             width: 65%;
             margin: auto;
+            display: flex;
+            justify-content: space-around;
+            border-top: 1px solid black;
         }
         #topadvert{
             text-align: center;
             margin-top: 20px;
         }
+        a{
+            text-decoration: none;
+            font-size: 15px;
+            font-style: Arial;
+        }
+        ul{
+            list-style-type:none;
+            text-align: left;
+        }
+       
+        
+        /* li{
+            padding-bottom: 5px;
+        } */
+        #footdiv2 div{
+            border-right: 1px solid black;
+            padding-right: 100px;
+        }
+        #networksites{
+            width: 65%;
+            margin: auto;
+            padding: -1px 0px;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            
+        }
+        #networksites ul{
+            display: flex;
+        }
+        #networksites li{
+            padding: 2px 5px;
+        }
+        #footdiv2 p{
+            font-size: 18px;
+            font-style: Arial;
+            font-weight: bold;
+            position: relative;
+            left: 30px;
+        }
+
+        #networksites p{
+            font-size: 18px;
+            font-style: Arial;
+            font-weight: bold;
+            position: relative;
+            left: 30px;
+        }
+        #networksites{
+            display: flex;
+        }
+        #copyright{
+            text-align: center;
+        }
+        #footerend{
+            display: flex;
+            justify-content: center;
+            margin-top: -20px;
+         
+        }
+        #footerend ul{
+            display: flex;
+            position: relative;
+            left: -16px;
+        }
+        #footerend li{
+            padding: 0px 3px;
+            font-weight: bold;
+           
+        }
+    </style>
+    <style>
+        #news{
+            border: 1px solid green;
+            width: 972px;
+            display: flex;
+            margin: auto;
+        }
+        #advert{
+            border: 1px solid red;
+            width: 320px;
+            text-align: center;
+        }
+        #newsPart{
+            width: 650px;
+           
+        }
+        
+        #Headlines{
+        
+            
+            padding: 5px 10px;
+            background-color: white;
+        }
     </style>
 </head>
 <body>
+    <!-- container start -->
+    <div id="container">
+        <!-- header Section Start -->
     <header>
         <div id="title">
             <div id="menu">
@@ -140,26 +261,26 @@
             <div ><img id= "firstpost" src="https://www.firstpost.com/static/images/fp-desk-logo.png" alt=""></div>
             
                  <div class="socialWebsites">
-                <img id="facebook" src="https://user-images.githubusercontent.com/99709824/179811287-feb2b2cb-10ca-46a7-8694-1fe165dbb150.jpeg" alt="">
-                <img id= "twitter" src="https://user-images.githubusercontent.com/107903370/179813513-6706c0ae-76f8-4d94-ab61-98af510f4bc8.jpg" alt="">
-                <img id="instagram" src="https://user-images.githubusercontent.com/107903370/179813696-609b2f15-2bda-4683-90ae-60258bfb2d42.jpg" alt="">
-                <img id="youtube" src="https://user-images.githubusercontent.com/107903370/179814083-1461e838-0a29-463d-8a97-16eea8c41c30.jpg" alt="">
-                <img id="lens" src="https://icon-library.com/images/search-icon-white-png/search-icon-white-png-18.jpg" alt="">
+                    <a href="https://www.facebook.com/firstpostin" target="_blank"><i id="face" class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/firstpost" target="blank"><i id="tweet" class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/firstpost/"><i class="fa-brands fa-instagram-square"></i></a>
+                    <a href="https://www.youtube.com/channel/UCz8QaiQxApLq8sLNcszYyJw/featured"><i class="fa-brands fa-youtube"></i></a>
+                <i id="lens" class="fa-solid fa-magnifying-glass"></i>
             </div>
          </div>
-
+        <!-- below title starts -->
         <div id="belowtitle">
             <div id="pages">
-                <p>Health</p>
-                <p>India</p>
-                <p>World</p>
-                <p>Politics</p>
-                <p>Auto</p>
-                <p>Opinion</p>
-                <p>Sports</p>
-                <p>Cricket</p>
-                <p>Entertainment</p>
-                <p>Tech</p>
+               <ul> <li>Health</li>
+                <li>India</li>
+                <li>World</li>
+                <li>Politics</li>
+                <li>Auto</li>
+                <li>Opinion</li>
+                <li>Sports</li>
+                <li>Cricket</li>
+                <li>Entertainment</li>
+                <li>Tech</li></ul>
             </div>
                 <div id="pages_right">
                     <div id="volvo">#VOLVO</div>
@@ -170,77 +291,135 @@
                     
                 </div>
         </div>
+        <!-- below title end -->
+        <!-- header end -->
     </header>
-          <div id="topadvert"><img src="https://tpc.googlesyndication.com/simgad/17993738890425371635" alt=""></div>
+
+
+         <div id="maindiv">
+            <div id="topadvert"><img src="https://tpc.googlesyndication.com/simgad/17993738890425371635" alt=""></div>
+
+            <div id="news">
+                <div id="newsPart">
+                    <div id="news1">
+                        <h1 style="font-style: arial;">THE BIG STORY</h1>
+                        <img src="https://images.firstpost.com/wp-content/uploads/fpranking/1658305137867.jpg" alt="">
+                        <div id="Headlines">
+                            <h1>The many challenges that await Sri Lanka's new president Ranil Wickeremesinghe</h1>
+                        </div>
+                    </div>
+                </div>
+                <div id="advert">
+                    <img src="https://tpc.googlesyndication.com/simgad/15638392523009639052" alt="">
+                </div>
+            </div>
+         </div>
+
+
+          <!-- footer section start -->
     <footer>
         <hr>
+        <!-- footer div1 start -->
         <div id="footdiv1">
             <div class="firstpost1"><img src="https://www.firstpost.com/static/images/fp-logo.png" alt=""></div>
             
+            
                 <div class="socialWebsites2">
-                    <img class="facebook1" src="https://user-images.githubusercontent.com/99709824/179811287-feb2b2cb-10ca-46a7-8694-1fe165dbb150.jpeg" alt="">
-                    <img class= "twitter1" src="https://user-images.githubusercontent.com/107903370/179813513-6706c0ae-76f8-4d94-ab61-98af510f4bc8.jpg" alt="">
-                    <img class="instagram1" src="https://user-images.githubusercontent.com/107903370/179813696-609b2f15-2bda-4683-90ae-60258bfb2d42.jpg" alt="">
-                    <img class="youtube1" src="https://user-images.githubusercontent.com/107903370/179814083-1461e838-0a29-463d-8a97-16eea8c41c30.jpg" alt="">
-                   
+                    <a href="https://www.facebook.com/firstpostin" target="_blank"><i id="face" class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/firstpost" target="blank"><i id="tweet" class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/firstpost/"><i class="fa-brands fa-instagram-square"></i></a>
+                    <a href="https://www.youtube.com/channel/UCz8QaiQxApLq8sLNcszYyJw/featured"><i class="fa-brands fa-youtube"></i></a>
                 </div>
              </div>
+             <!-- footerdiv1 End -->
+
+             <!-- footer div2 start -->
              <div id="footdiv2">
                 <div id="FirstPost">
-                 
+                    <p>FirstPost</p>
+            
+                 <ul>
+                    
+                    <li><a href="https://www.firstpost.com/about-firstpost">About FirstPost</a></li>
+                    <li><a href="https://www.firstpost.com/category/press-release">Press Release</a></li>
+                    <li><a href="https://www.firstpost.com/rss">RSS</a></li>
+                    <li><a href="https://twitter.com/firstpost" target="_blank">Twitter</a> </li>
+                    <li><a href="https://www.facebook.com/firstpostin" target="_blank">facebook</a> </li>
+                 </ul>
                 </div>
 
-                <div id="Section"></div>
-                <div id="Plus"></div>
-                <div id="Tools"></div>
+                <div id="Section">
+                    <p>Section</p>
+                    <ul>
+                        
+                        <li><a href="" target="_blank">Front Page</a> </li>
+                        <li><a href="" target="_blank">Politics</a> </li>
+                        <li><a href="" target="_blank">Sports</a> </li>
+                        <li><a href="" target="_blank">India</a> </li>
+                        <li><a href="" target="_blank">World</a> </li>
+                        <li><a href="" target="_blank">Business</a> </li>
+                        <li><a href="" target="_blank">Entertainment News</a> </li>
+                        <li><a href="" target="_blank">Cricket</a> </li>
+                        <li><a href="" target="_blank">Tech</a> </li>
+                        <li><a href="" target="_blank">Health</a> </li>
+                        <li><a href="" target="_blank">Photos</a> </li>
+                        <li><a href="" target="_blank">Videos</a> </li>
+                        <li><a href="" target="_blank">Press Release</a> </li>
+                        <li><a href="" target="_blank">Firstculture</a> </li>
+                        <li><a href="" target="_blank">Long Reads</a> </li>
+                        <li><a href="" target="_blank">Latest Mobiles</a> </li>
+                        <li><a href="" target="_blank">Latest Tablets</a> </li>
+                        <li><a href="" target="_blank">Latest Laptops</a> </li>
+                    </ul>
+                </div>
+                  
+                <div id="Plus">
+                    <p>Plus</p>
+                    <ul>
+                        <li><a href="" target="_blank">Cricket Live Score</a> </li>
+                        <li><a href="" target="_blank">New Delhi</a> </li>
+                        <li><a href="" target="_blank">Mumbai</a> </li>
+                        <li><a href="" target="_blank">Fp Exclusives</a>  </li>
+                        <li><a href="" target="_blank">Board Exam Results</a> </li>
+                        <li><a href="" target="_blank">Ipl 2020</a> </li>
+                        <li><a href="" target="_blank">Coronavirus</a> </li>
+                    </ul>
+                </div>
+                <div id="Tools" style="border-right: none">
+                    <p>Tools</p>
+                   <ul>
+                    <li><a href="" target="_blank">Rss Feeds</a> </li>
+                   </ul>
+                   <p>Apps</p>
+                   <ul>
+                    <li><a href="" target="_blank">Ios</a> </li>
+                    <li><a href="" target="_blank">Android</a> </li>
+                   </ul>
+                </div>
+             </div>
+             <!-- footer div2 End -->
+             <div id="networksites">
+                <p>Network18 sites ></p>
+                <ul>
+                    
+                    <li>Money Control</li>
+                    <li>News 18</li>
+                    <li>CNBC TV18</li>
+                    <li>Over Drive</li>
+                    <li>Forbes India</li>
+                    <li>TopperLearning</li>
+                </ul>
+             </div>
+             <p id="copyright">Copyright &#169 <a href="https://www.firstpost.com/">Firstpost</a>All Rights Reserved</p>
+             <div id="footerend">
+                <ul>
+                    <li>Terms of Use</li>
+                    <li>Privacy</li>
+                    <li>Cookie Policy</li>
+                </ul>
              </div>
     </footer>
+</div>
+<div id="menubar"></div>
 </body>
 </html>
-<script>
-    // header Section
-    document.querySelector("#facebook").addEventListener("click",function(){
-        window.location.href = "https://www.facebook.com/firstpostin"
-    })
-    document.querySelector("#twitter").addEventListener("click",function(){
-        window.location.href = "https://twitter.com/firstpost"
-    })
-    document.querySelector("#instagram").addEventListener("click",function(){
-        window.location.href = "https://www.instagram.com/firstpost/"
-    })
-    document.querySelector("#youtube").addEventListener("click",function(){
-        window.location.href = "https://www.youtube.com/channel/UCz8QaiQxApLq8sLNcszYyJw/featured"
-    })
-    document.querySelector("#volvo").addEventListener("click",function(){
-        window.location.href = "https://www.firstpost.com/powering-life"
-    })
-    document.querySelector("#crypto").addEventListener("click",function(){
-        window.location.href = "https://www.firstpost.com/tag/cryptocurrency"
-    })
-    document.querySelector("#netrasuraksha").addEventListener("click",function(){
-        window.location.href = "https://www.news18.com/netrasuraksha/"
-    })
-    document.querySelector("#firstpost").addEventListener("click",function(){
-        window.location.href = "index.html"
-    })
-    
-
-// footer Section
-
-document.querySelector(".facebook1").addEventListener("click",function(){
-        window.location.href = "https://www.facebook.com/firstpostin"
-    })
-    document.querySelector(".twitter1").addEventListener("click",function(){
-        window.location.href = "https://twitter.com/firstpost"
-    })
-    document.querySelector(".instagram1").addEventListener("click",function(){
-        window.location.href = "https://www.instagram.com/firstpost/"
-    })
-    document.querySelector(".youtube1").addEventListener("click",function(){
-        window.location.href = "https://www.youtube.com/channel/UCz8QaiQxApLq8sLNcszYyJw/featured"
-    })
-    document.querySelector(".firstpost1").addEventListener("click",function(){
-        window.location.href = "index.html"
-    })
-//    chandra sekhar
-</script>
