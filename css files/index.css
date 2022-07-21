@@ -219,9 +219,10 @@ ul{
 /* complete news css starts here */
 #news{
     border: 1px solid green;
-    width: 972px;
+    width: 980px;
     display: flex;
     margin: auto;
+    justify-content: space-between;
 }
 /* advertisement css start */
 #advert{
@@ -231,6 +232,9 @@ ul{
 }
 #newsPart{
     width: 650px;
+    /* display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 50px; */
     /* height: auto; */
  }
 #advert2{
@@ -365,6 +369,7 @@ text-align: center;
 .scroll-news{
     width:230px;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .scroll-news img{
     width:220px;
@@ -401,19 +406,7 @@ height: min-content;
 border: 1px solid coral;
 margin-top: 60px;
 }
-.bigstory{
-
-display: flex;
-flex-direction: column;
-align-items: center;
-font: 900 27px/35px Arial;
-letter-spacing: 0;
-color: #000;
-position: relative;
-margin-bottom: 15px;
-text-transform: uppercase;
-text-align: center;
-}
+/* abcdefgh */
 #trending-news-list{
 width: 650px;
 height: min-content;
@@ -450,3 +443,106 @@ overflow: hidden; */
 .trending-lines{
 width:160px;
 }
+/* border css starts here */
+.black-line{
+    background-color: black;
+     width: 240px;
+     height: 1px;
+ }
+ .yellow-line{
+     width: 130px;
+     height: 7px;
+     background-color: gold;
+ }
+ .heading-underLine{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 6px;
+}
+/* scroll-video-starts from here */
+#videos{
+    border: 1px solid purple;
+    width: 650px;
+    height: min-content;
+}
+/*  */
+#scroll-videos-list{
+border: 1px solid coral;
+width: 650px;
+height: min-content;
+display: grid;
+grid-template-columns: repeat(6,1fr);
+gap: 15px;
+overflow-x: auto;
+overflow-y: hidden;
+margin-top: 10px;
+}
+.scroll-video{
+width: 200px;
+height: min-content;
+border: 1px solid green;
+
+}
+.scroll-video-lines{
+font: Bold 18px/19px 'Playfair Display';
+color: #000;
+margin: 5px 0 0;
+padding: 3px;
+padding-bottom: 100px;
+
+}
+#videos .fa-solid{
+    font-size: 35px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    position: relative;
+    top: -60px;
+    left: 20px;
+    padding: 0px;
+}
+/* bottom photos list */
+#photos{
+    width: 650px;
+    height: min-content;
+    border: 2px solid coral;
+    height: min-content;
+    }
+    #main-photo{
+        border: 1px solid blue;
+        width: 650px;
+        height: min-content;
+    }
+    #photos .fa-solid{
+        font-size: 45px;
+        background-color: black;
+        border-radius: 50%;
+        color: white;
+        position: relative;
+        top: -300px;
+        left: 20px;
+    }
+    #sub-photos-list{
+        display: flex;
+        width: 650px;
+        height: 300px;
+        border: 1px solid pink;
+        justify-content: space-between;
+    }
+    .sub-photo{
+        width: 200px;
+        height: 300px;
+        border: 1px solid green;}
+        .photo-desc{
+            font: normal normal bold 18px/21px 'Playfair Display';
+        color: #000000;
+        padding: 5px;
+        }
+        .photo-title{
+            font: normal normal normal 16px/14px Arial;
+        color: #585858;
+        position: relative;
+        z-index: 1;
+        padding-right: 5px;
+        width: fit-content;
+        }
