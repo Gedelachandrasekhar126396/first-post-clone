@@ -100,6 +100,9 @@ hr{
     background-color: black;  
     height: 5px;   
    }
+   /* hedaer css ends here */
+
+   /* footer css starts here */
    #footdiv1{
     display: flex;
     align-items: center;
@@ -156,9 +159,7 @@ ul{
 }
 
 
-/* li{
-    padding-bottom: 5px;
-} */
+
 #footdiv2 div{
     border-right: 1px solid black;
     padding-right: 100px;
@@ -214,13 +215,15 @@ ul{
     font-weight: bold;
    
 }
-
+/* footer css ends here */
+/* complete news css starts here */
 #news{
     border: 1px solid green;
     width: 972px;
     display: flex;
     margin: auto;
 }
+/* advertisement css start */
 #advert{
     border: 1px solid red;
     width: 320px;
@@ -233,19 +236,7 @@ ul{
 #advert2{
     border: 1px solid black;
     height: 320px; }
-.bigstory{
 
-display: flex;
-flex-direction: column;
-align-items: center;
-font: 900 27px/35px Arial;
-letter-spacing: 0;
-color: #000;
-position: relative;
-margin-bottom: 15px;
-text-transform: uppercase;
-text-align: center;
-}
 
 .main-title{
 font: 700 26px/30px 'Playfair Display',sans-serif;
@@ -280,7 +271,7 @@ position: relative;
 top: -30px;
 /* border: 3px solid coral; */
 width: 95%;
-margin-left: 4%;
+margin-left: 2.5%;
 padding: 5px 4px;
 }
 .subscribe{
@@ -303,4 +294,159 @@ font-size: 20px;
 margin: 8px 5px;
 font-size: 24px;
 font-family: Arial, Helvetica, sans-serif;
+cursor: pointer;
+}
+.title-txt{
+    font: 900 Italic 20px/45px Arial;
+color: #000;
+text-transform: uppercase;
+position: relative;
+
+}
+.mostread1{
+    width: 320px;
+    height: 250px;
+    border: 1px solid black;
+    
+}
+.top-title-head{
+font: 700 18px/22px 'Playfair Display';
+letter-spacing: 0;
+color: #000;
+margin: 0 0 5px;
+max-width: 90%;
+}
+.top-title-sum{
+    font: 400 14px/18px Arial;
+letter-spacing: .56px;
+color: #000;
+/* border-bottom: 1px solid gray; */
+}
+
+.story-list{
+    border: 1px solid coral;
+}
+.story-list ul{
+   border-bottom: 1px solid gray; 
+}
+.serial{
+    font-size: 35px;
+    padding-right: 20px;
+}
+
+ /* scrollbar css in news starts here */
+
+ #scrollbox{
+    width: 650px;
+    height: auto;
+    border: 1px solid coral;
+    
+}
+.bigstory{
+font: 900 27px/35px Arial;
+letter-spacing: 0;
+color: #000;
+position: relative;
+margin-bottom: 15px;
+text-transform: uppercase;
+text-align: center;
+}
+.webscroll{
+    width: 650px;
+    height: 340px;
+    border: 1px solid teal;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 0px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.scroll-news{
+    width:230px;
+    text-align: center;
+}
+.scroll-news img{
+    width:220px;
+    height: 320px;
+   
+}
+.img-desc{
+    font: normal normal bold 15px/21px 'Playfair Display';
+color: #000000;
+}
+.scroll-title{
+    font: normal normal normal 12px/14px Arial;
+color: #585858;
+position: relative;
+z-index: 1;
+padding-right: 5px;
+width: fit-content;
+}
+.scroll-news-lines{
+    border: 1px solid red;
+    width: 90%;
+    position: relative;
+    top: -130px;
+    margin: auto;
+    background-color: white;
+    text-align: justify;
+}
+/* scroll bar css ends here */
+/* trending css starts here */
+#trending{
+    border: 1px solid coral;
+width: 650px;
+height: min-content;
+border: 1px solid coral;
+margin-top: 60px;
+}
+.bigstory{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+font: 900 27px/35px Arial;
+letter-spacing: 0;
+color: #000;
+position: relative;
+margin-bottom: 15px;
+text-transform: uppercase;
+text-align: center;
+}
+#trending-news-list{
+width: 650px;
+height: min-content;
+border: 1px solid blue;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+.trending-news{
+width: 320px;
+height: 140px;
+display: flex;
+border: 2px solid green;
+justify-content: space-around;
+margin-top: 20px;
+
+}
+.trend-headline{
+font: 400 14px/16px Arial;
+color: #585858;
+text-transform: uppercase;
+position: relative;
+padding-right: 5px;
+z-index: 1;
+display: inline-block;
+}
+.trend-brief{
+font: Bold 18px/19px 'Playfair Display';
+color: #000;
+margin: 5px 0 0;
+/* max-height: 95px;
+min-height: 95px;
+overflow: hidden; */
+}
+.trending-lines{
+width:160px;
 }
