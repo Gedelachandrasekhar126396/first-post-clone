@@ -7,6 +7,8 @@
     <script src="https://kit.fontawesome.com/4dbaa63c16.js" crossorigin="anonymous"></script>
     <title>Home Page</title>
     <link rel="stylesheet" href="../css files/index.css" />
+    <script src="index.js"></script>
+
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 
     <style>
@@ -77,13 +79,15 @@
                         <div class="black-line"></div>
                     </div>
                    
-                     <img src="https://images.firstpost.com/wp-content/uploads/fpranking/165833894398.jpg" alt="">
+                     <img id="pic" src="https://images.firstpost.com/wp-content/uploads/fpranking/165833894398.jpg" alt="">
                     <div class="headline1">
                         <p class="category-name2">SURPRISE</p>
                         <div class="yellow-line1"></div>
                         <h2 class="main-title">
                            British PM contest: Rishi Sunak races ahead with 137 votes, to face Liz Truss in final leg
                        </h2>
+                       <button id="left" ><i class="fa-solid fa-chevron-left"></i></button>
+                       <button id="right"><i class="fa-solid fa-chevron-right"></i></button>
                     </div>
                 </div>
                 <div id="news2">
@@ -472,7 +476,7 @@ The painting, which has Raja Serfoji and his youthful son, according to some his
           <img src="https://images.firstpost.com/wp-content/uploads/2022/07/congress1.jpg?impolicy=website&width=640&height=362" alt="">
           <i class="fa-solid fa-photo-film"></i>
     </div>
-          <div id="sub-photos-list">
+          <div class="sub-photos-list">
             <div class="sub-photo">
                 <img src="https://images.firstpost.com/wp-content/uploads/2022/07/20bird1.jpg?impolicy=website&width=192&height=104" alt="">
                 <div class="photo-news-lines">
@@ -628,7 +632,7 @@ The painting, which has Raja Serfoji and his youthful son, according to some his
             
             
                 <div class="socialWebsites2">
-                    <a href="https://www.facebook.com/firstpostin" target="_blank"><i class="face" id="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com/firstpostin" target="_blank"><i id="face" class="fa-brands fa-facebook-f"></i></a>
                     <a href="https://twitter.com/firstpost" target="blank"><i id="tweet" class="fa-brands fa-twitter"></i></a>
                     <a href="https://www.instagram.com/firstpost/"><i class="fa-brands fa-instagram-square"></i></a>
                     <a href="https://www.youtube.com/channel/UCz8QaiQxApLq8sLNcszYyJw/featured"><i class="fa-brands fa-youtube"></i></a>
@@ -778,4 +782,38 @@ document.querySelector(".cross-mark").addEventListener("click",display2)
 function display2(){
 document.querySelector("#menubar").style="display:none"
 }
+let array = [
+        
+        { image : "https://images.firstpost.com/wp-content/uploads/fpranking/1658499549883.jpg", c:1},
+        { image : "https://images.firstpost.com/wp-content/uploads/2021/10/14reliance.jpg?impolicy=website&width=640&height=362", c:2},
+        { image : "https://images.firstpost.com/wp-content/uploads/2021/10/Liquor6432.jpg?impolicy=website&width=640&height=362", c:3},
+        { image : "https://images.firstpost.com/wp-content/uploads/2022/07/640363-2022-07-22T194527.085.jpg?impolicy=website&width=640&height=362", c:4},
+        { image : "https://images.firstpost.com/wp-content/uploads/2022/06/mobile11.jpg?impolicy=website&width=640&height=362", c:5},
+        { image : "https://images.firstpost.com/wp-content/uploads/fpranking/165833894398.jpg", c:0},
+]
+let count=0;
+console.log(count)   
+     document.querySelector("#right").addEventListener("click", display3)
+     function display3(){
+        count++;
+        let base = Math.abs(count%5);
+        console.log(count)
+       for(let i=0;i<array.length;i++){
+        if (base=== array[i].c){
+            document.querySelector("#pic").src = array[i].image
+        }
+       }
+     }
+     
+     document.querySelector("#left").addEventListener("click", display4)
+     function display4(){
+        count--;
+        let base = Math.abs(count%5);
+        console.log(count)
+       for(let i=0;i<array.length;i++){
+        if (base=== array[i].c){
+            document.querySelector("#pic").src = array[i].image
+        }
+       }
+     }
 </script>

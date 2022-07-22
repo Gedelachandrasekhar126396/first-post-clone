@@ -45,6 +45,7 @@ header{
     width: 20px;
     padding-left: 30px;
      background-color: black;
+     font-size: 100px;
 }
 #title div{
     cursor: pointer;
@@ -109,7 +110,7 @@ hr{
     justify-content: space-between; 
     width: 65%;
     margin: auto;
-    border-bottom: 1px solid blue;
+    /* border-bottom: 1px solid blue; */
    }
   .socialWebsites2{
     display: flex;
@@ -218,7 +219,7 @@ ul{
 /* footer css ends here */
 /* complete news css starts here */
 #news{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 980px;
     display: flex;
     margin: auto;
@@ -226,19 +227,16 @@ ul{
 }
 /* advertisement css start */
 #advert{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 320px;
 
 }
 #newsPart{
     width: 650px;
-    /* display: grid;
-    grid-template-columns: repeat(1,1fr);
-    gap: 50px; */
-    /* height: auto; */
+
  }
 #advert2{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 320px; }
 
 
@@ -269,6 +267,18 @@ padding: -5px 0px;
 z-index: 0;
 padding: 5px 4px;
 }
+.headline3{
+    background-color: white;
+    position: relative;
+    top: -170px;
+    /* border: 3px solid coral; */
+    width: 90%;
+    margin: auto;
+    padding: -5px 0px;
+    z-index: 0;
+    padding: 5px 4px;
+    color: red;
+    }
 .headline2{
 background-color: white;
 position: relative;
@@ -343,7 +353,7 @@ color: #000;
  #scrollbox{
     width: 650px;
     height: auto;
-    border: 1px solid coral;
+    /* border: 1px solid coral; */
     
 }
 .bigstory{
@@ -389,7 +399,7 @@ padding-right: 5px;
 width: fit-content;
 }
 .scroll-news-lines{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 90%;
     position: relative;
     top: -130px;
@@ -400,17 +410,17 @@ width: fit-content;
 /* scroll bar css ends here */
 /* trending css starts here */
 #trending{
-    border: 1px solid coral;
+
 width: 650px;
 height: min-content;
-border: 1px solid coral;
+/* border: 1px solid coral; */
 margin-top: 60px;
 }
 /* abcdefgh */
 #trending-news-list{
 width: 650px;
 height: min-content;
-border: 1px solid blue;
+/* border: 1px solid blue; */
 display: grid;
 grid-template-columns: repeat(2,1fr);
 }
@@ -418,7 +428,7 @@ grid-template-columns: repeat(2,1fr);
 width: 320px;
 height: 140px;
 display: flex;
-border: 2px solid green;
+/* border: 2px solid green; */
 justify-content: space-around;
 margin-top: 20px;
 
@@ -461,13 +471,13 @@ width:160px;
 }
 /* scroll-video-starts from here */
 #videos{
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     width: 650px;
     height: min-content;
 }
 /*  */
 #scroll-videos-list{
-border: 1px solid coral;
+/* border: 1px solid coral; */
 width: 650px;
 height: min-content;
 display: grid;
@@ -480,7 +490,8 @@ margin-top: 10px;
 .scroll-video{
 width: 200px;
 height: min-content;
-border: 1px solid green;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+/* border: 1px solid green; */
 
 }
 .scroll-video-lines{
@@ -505,11 +516,11 @@ padding-bottom: 100px;
 #photos{
     width: 650px;
     height: min-content;
-    border: 2px solid coral;
+    /* border: 2px solid coral; */
     height: min-content;
     }
     #main-photo{
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         width: 650px;
         height: min-content;
     }
@@ -522,21 +533,27 @@ padding-bottom: 100px;
         top: -300px;
         left: 20px;
     }
-    #sub-photos-list{
+    .sub-photos-list{
         display: flex;
         width: 650px;
         height: 300px;
-        border: 1px solid pink;
+        /* border: 1px solid pink; */
         justify-content: space-between;
+        margin-top: 20px;
+        position: relative;
+        top: -50px;
     }
     .sub-photo{
         width: 200px;
         height: 300px;
-        border: 1px solid green;}
+        /* border: 1px solid green; */
+    }
         .photo-desc{
-            font: normal normal bold 18px/21px 'Playfair Display';
+            font: normal normal bold 16px/21px 'Playfair Display';
         color: #000000;
         padding: 5px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding-bottom: 80px;
         }
         .photo-title{
             font: normal normal normal 16px/14px Arial;
@@ -548,8 +565,7 @@ padding-bottom: 100px;
         }
 
 
-        /* Additional css */
-
+        /* modified css */
         #advert4-img img{
             width: 100%;
         }
@@ -560,13 +576,13 @@ padding-bottom: 100px;
        .trading button{
         background-color: white;
         color: blue;
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         padding: 0px 16px;
         border-radius: 5px;
         font-size: 15px;
        }
        iframe{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         margin-top: 10px;
        }
        #months9{
@@ -618,11 +634,13 @@ padding-bottom: 100px;
         position: relative;
           top:-15px;
     }
+
+
     /* menu bar css staRTS FROM HERE */
     #menubar{
         width: 350px;
         height: 750px;
-        border: 2px solid coral;
+        /* border: 2px solid coral; */
         background-color: rgb(238, 230, 230);
         position: absolute;
         top: 0px;
@@ -648,7 +666,7 @@ padding-bottom: 100px;
         background-color: silver;
     }
     li{
-        text-align: center;
+        /* text-align: center; */
         cursor: pointer;
         
 font-family: Arial,sans-serif;
@@ -677,5 +695,27 @@ font-family: Arial,sans-serif;
     background-color: white;
   }
   #menubar .socialWebsites{
-    font-size: 30px;
+    font-size: 10px;
   }
+
+
+  /* scroll buttons css starts here */
+      .fa-chevron-left{
+        background-color: white;
+        color: #000;
+        font-size: 20px;
+       position: relative;
+       top: -120px;
+       left: -50px;
+      }
+      .fa-chevron-right{
+        background-color: white;
+        color: #000;
+        font-size: 20px;
+       position: relative;
+       top: -120px;
+       right: -500px;
+      }
+      .fa-magnifying-glass{
+        font-size: 20px; padding-top:10px
+      }
