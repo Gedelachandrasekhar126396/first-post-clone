@@ -219,7 +219,7 @@ ul{
 /* footer css ends here */
 /* complete news css starts here */
 #news{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 980px;
     display: flex;
     margin: auto;
@@ -227,16 +227,13 @@ ul{
 }
 /* advertisement css start */
 #advert{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 320px;
 
 }
 #newsPart{
     width: 650px;
-    /* display: grid;
-    grid-template-columns: repeat(1,1fr);
-    gap: 50px; */
-    /* height: auto; */
+
  }
 #advert2{
     border: 1px solid black;
@@ -340,9 +337,9 @@ color: #000;
 /* border-bottom: 1px solid gray; */
 }
 
-.story-list{
+/* .story-list{
     border: 1px solid coral;
-}
+} */
 .story-list ul{
    border-bottom: 1px solid gray; 
 }
@@ -402,7 +399,7 @@ padding-right: 5px;
 width: fit-content;
 }
 .scroll-news-lines{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 90%;
     position: relative;
     top: -130px;
@@ -411,51 +408,7 @@ width: fit-content;
     text-align: justify;
 }
 /* scroll bar css ends here */
-/* trending css starts here */
-#trending{
-    border: 1px solid coral;
-width: 650px;
-height: min-content;
-border: 1px solid coral;
-margin-top: 60px;
-}
-/* abcdefgh */
-#trending-news-list{
-width: 650px;
-height: min-content;
-border: 1px solid blue;
-display: grid;
-grid-template-columns: repeat(2,1fr);
-}
-.trending-news{
-width: 320px;
-height: 140px;
-display: flex;
-border: 2px solid green;
-justify-content: space-around;
-margin-top: 20px;
 
-}
-.trend-headline{
-font: 400 14px/16px Arial;
-color: #585858;
-text-transform: uppercase;
-position: relative;
-padding-right: 5px;
-z-index: 1;
-display: inline-block;
-}
-.trend-brief{
-font: Bold 14.5px/19px 'Playfair Display';
-color: #000;
-margin: 5px 0 0;
-/* max-height: 95px;
-min-height: 95px;
-overflow: hidden; */
-}
-.trending-lines{
-width:160px;
-}
 /* border css starts here */
 .black-line{
     background-color: black;
@@ -474,7 +427,7 @@ width:160px;
 }
 /* scroll-video-starts from here */
 #videos{
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     width: 650px;
     height: min-content;
 }
@@ -493,7 +446,7 @@ margin-top: 10px;
 .scroll-video{
 width: 200px;
 height: min-content;
-border: 1px solid green;
+/* border: 1px solid green; */
 
 }
 .scroll-video-lines{
@@ -515,14 +468,14 @@ padding-bottom: 100px;
     padding: 0px;
 }
 /* bottom photos list */
-#photos{
+.photos{
     width: 650px;
     height: min-content;
-    border: 2px solid coral;
+    /* border: 2px solid coral; */
     height: min-content;
     }
-    #main-photo{
-        border: 1px solid blue;
+    .main-photo{
+        /* border: 1px solid blue; */
         width: 650px;
         height: min-content;
     }
@@ -539,7 +492,7 @@ padding-bottom: 100px;
         display: flex;
         width: 650px;
         height: 300px;
-        border: 1px solid pink;
+        /* border: 1px solid pink; */
         justify-content: space-between;
         margin-top: 20px;
         position: relative;
@@ -548,7 +501,8 @@ padding-bottom: 100px;
     .sub-photo{
         width: 200px;
         height: 300px;
-        border: 1px solid green;}
+        /* border: 1px solid green; */
+    }
         .photo-desc{
             font: normal normal bold 16px/21px 'Playfair Display';
         color: #000000;
@@ -577,13 +531,13 @@ padding-bottom: 100px;
        .trading button{
         background-color: white;
         color: blue;
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         padding: 0px 16px;
         border-radius: 5px;
         font-size: 15px;
        }
        iframe{
-        border: 2px solid red;
+        /* border: 2px solid red; */
         margin-top: 10px;
        }
        #months9{
@@ -641,7 +595,7 @@ padding-bottom: 100px;
     #menubar{
         width: 350px;
         height: 750px;
-        border: 2px solid coral;
+        /* border: 2px solid coral; */
         background-color: rgb(238, 230, 230);
         position: absolute;
         top: 0px;
@@ -667,7 +621,7 @@ padding-bottom: 100px;
         background-color: silver;
     }
     li{
-        text-align: center;
+        /* text-align: center; */
         cursor: pointer;
         
 font-family: Arial,sans-serif;
@@ -696,5 +650,13 @@ font-family: Arial,sans-serif;
     background-color: white;
   }
   #menubar .socialWebsites{
-    font-size: 30px;
+    font-size: 10px;
+  }
+  .fa-brands{
+    font-size: 25px;
+    position: relative;
+
+  }
+  .fa-magnifying-glass{
+    font-size: 20px; padding-top:10px
   }
