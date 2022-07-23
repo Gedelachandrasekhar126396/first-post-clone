@@ -236,7 +236,8 @@ ul{
 
  }
 #advert2{
-    /* border: 1px solid black; */
+    border: 1px solid gray;
+    margin-bottom: 10px;
     height: 320px; }
 
 
@@ -712,6 +713,7 @@ font-family: Arial,sans-serif;
        position: relative;
        top: -120px;
        left: -50px;
+       background-color: white;
       }
       .fa-chevron-right{
         background-color: white;
@@ -722,5 +724,7 @@ font-family: Arial,sans-serif;
        right: -500px;
       }
       .fa-magnifying-glass{
-        font-size: 20px; padding-top:10px
+        font-size: 20px; 
+        padding-top:10px;
+        /* border-left: 1px solid white; */
       }

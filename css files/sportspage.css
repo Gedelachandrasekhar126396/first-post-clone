@@ -236,7 +236,8 @@ ul{
 
  }
 #advert2{
-    border: 1px solid black;
+    border: 1px solid gray;
+    margin-bottom: 10px;
     height: 320px; }
 
 
@@ -344,9 +345,9 @@ color: #000;
 /* border-bottom: 1px solid gray; */
 }
 
-/* .story-list{
+.story-list{
     border: 1px solid coral;
-} */
+}
 .story-list ul{
    border-bottom: 1px solid gray; 
 }
