@@ -13,7 +13,7 @@ document.querySelector("#menubar").style="display:none"
 }
 let array = [
         
-        { image : "https://images.firstpost.com/wp-content/uploads/fpranking/1658551532810.jpg?impolicy=website&width=640&height=3622", c:1, story : "WWE SmackDown results: Brock Lesnar’s unexpected entry, Vince McMahon’s retirement and more"},
+     
         { image : "https://images.firstpost.com/wp-content/uploads/fpranking/1658571088584.jpg?impolicy=website&width=640&height=362", c:2,story : "Here’s why Samantha Ruth Prabhu opened up on broken marriage with Karan Johar"},
         { image : "https://images.firstpost.com/wp-content/uploads/2022/07/Sweden-Belgium-Euro-2022-640.jpg?impolicy=website&width=640&height=362", c:3,story : "Women's Euro 2022: Linda Sembrant strikes as Sweden beat Belgium to set up England semi-final"},
         { image : "https://images.firstpost.com/wp-content/uploads/2022/07/Chivas-Juventus-640.jpg?impolicy=website&width=640&height=362", c:4,story : "Juventus open US tour with 2-0 friendly win over Chivas Guadalajara"},
