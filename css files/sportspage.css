@@ -247,6 +247,13 @@ color: #000;
 margin-top: 10px;
 }
 
+.big-story{
+    font: 700 26px/30px 'Playfair Display',sans-serif;
+    letter-spacing: 0;
+    color: #000;
+    margin-top: 10px;
+    }
+
 .category-name{
 font: 400 14px/16px Arial;
 color: #585858;
@@ -656,6 +663,26 @@ font-family: Arial,sans-serif;
     font-size: 25px;
     position: relative;
 
+  }
+  .fa-magnifying-glass{
+    font-size: 20px; padding-top:10px
+  }
+   /* scroll buttons css starts here */
+   .fa-chevron-left{
+    background-color: white;
+    color: #000;
+    font-size: 20px;
+   position: relative;
+   top: -120px;
+   left: -50px;
+  }
+  .fa-chevron-right{
+    background-color: white;
+    color: #000;
+    font-size: 20px;
+   position: relative;
+   top: -120px;
+   right: -500px;
   }
   .fa-magnifying-glass{
     font-size: 20px; padding-top:10px
