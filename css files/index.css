@@ -246,7 +246,12 @@ letter-spacing: 0;
 color: #000;
 margin-top: 10px;
 }
-
+.big-story{
+    font: 700 26px/30px 'Playfair Display',sans-serif;
+    letter-spacing: 0;
+    color: #000;
+    margin-top: 10px;
+    }
 .category-name{
 font: 400 14px/16px Arial;
 color: #585858;
