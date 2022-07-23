@@ -1,5 +1,3 @@
-// index files starts here//
-
 document.querySelector("#menu").addEventListener("click",display)
 
 function display(){
